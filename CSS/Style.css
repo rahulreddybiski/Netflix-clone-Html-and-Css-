@@ -37,7 +37,7 @@ img{
 
 .showcase{
     width: 100%;
-    height: 100vh;
+    height: 116vh;
     position: relative;
     background: url("../Netflix_background.jpg") no-repeat center center/cover;
 }
@@ -79,7 +79,7 @@ img{
     justify-content: center;
     align-items: center;
     z-index: 2;
-    height: 482px;
+    height: 410px;
 }
 .showcase-content h1{
     font-weight: 700;
@@ -104,6 +104,42 @@ img{
     display: inline-block;
 }
 
+
+/*Titlecards section */
+
+.titlecards{
+    position: relative;
+    height: 400px;
+}
+.our-titlecards h1{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 46%;
+    left: 20%;
+}
+.our-titlecards p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 55%;
+    left: 15%;
+}
+.first-titlecards{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 10%;
+    right: 10%;
+}
+.first-titlecards::after{
+    content: "";
+    position: absolute;
+    background: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png") no-repeat center center/cover;
+    top: 0%;
+    right: 0%;
+    height: 409px;
+    width: 400px;
+    z-index: 1;
+}
 
 
 
@@ -139,6 +175,9 @@ img{
     font-size: 1rem;
     padding: 0.5rem 1rem;
     text-transform: none;
+}
+hr{
+    color: rgb(53, 51, 51);
 }
 
 
